@@ -241,10 +241,22 @@ card-section-start
         margin: 0 auto;
         background-color: #727272;
     }
-
-    .identity-container .card:hover{
-        box-shadow: 1px 8px 20px rgba(128, 128, 128, 0.692);
+    .product .product-details{
+        display: flex;
+        align-items: center;
+        height: 100px;
+        justify-content: space-between;
     }
+    .product .product-details .price .main-price{
+        text-decoration: line-through;
+    }
+    .product .btn i{
+        margin-right: 5px;
+    }
+    .product-container .card:hover{
+        box-shadow: 1px 8px 20px rgba(128, 128, 128, 0.897);
+    }
+    
     /* -------------------
     footer
     --------------------- */
