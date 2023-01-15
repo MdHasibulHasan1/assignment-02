@@ -45,7 +45,13 @@
     .featuer-section-container >div{
         width: 90%;
     }
-
+    
+    /* ----------------
+    card-section-start
+     */
+     .card-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
     /* ----------------
     ours-sponspors-section
     --------------------- */
@@ -76,6 +82,13 @@
 
 
 @media screen and (min-width:577px) and (max-width:768px) {
+     /* ----------------
+    card-section-start
+     */
+     .card-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    /* product-container */
     .product-container{
         grid-template-columns: repeat(2, 1fr);
     }
