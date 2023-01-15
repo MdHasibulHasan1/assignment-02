@@ -45,8 +45,9 @@
     /* ----------------------
             identity-container-start
         -------------------------- */
-        .identity-container{
+        .product-container{
             flex-direction: column;
+            margin: 0 auto;
         }
 }
 

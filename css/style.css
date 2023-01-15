@@ -67,7 +67,8 @@ nav ul{
 nav ul li{
     margin-left: 20px;
     font-weight: 500;
-    font-size: 18px;    
+    font-size: 18px; 
+    padding: 1em;   
 }
 .band-new-section{
     text-align: center;
@@ -192,7 +193,7 @@ card-section-start
 }
 /* hover effect */
 .card-container .card-item:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
     box-shadow: 1px 8px 20px grey;
 }
 
@@ -219,20 +220,18 @@ card-section-start
 /* ----------------------
             identity-container-start
         -------------------------- */
-    .identity-container{
+    .product-container{
         display: flex;
         gap: 10px;
         justify-content: center;
     }
-    .identity-container .card{
+    .product-container .product{
         padding: 20px;
         box-sizing: border-box;
         box-shadow: 1px 8px 20px grey;
     }
-    .identity-container .card img{
-        width: 100px;
-        border: 2px solid rebeccapurple;
-        border-radius: 50%;
+    .product-container .product img{
+        width: 100%;
         display: block;
         margin: 0 auto;
     }
