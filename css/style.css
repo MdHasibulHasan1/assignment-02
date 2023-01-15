@@ -178,17 +178,15 @@ card-section-start
 .card-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    justify-content: space-around;
+    justify-content: center;
     text-align: center;
     gap: 20px;
 }
 .card-container .card-item{
-    
     box-sizing: border-box;
     padding: 20px;
     box-shadow: rgba(235, 108, 4, 0.466) 0px 1px 4px, rgba(249, 241, 9, 0.231) 0px 0px 0px 3px;
     transition: transform 2s;
-
 }
 /* hover effect */
 .card-container .card-item:hover{
@@ -197,7 +195,6 @@ card-section-start
     border-radius: 50%;
     background-color: #7272724a;
 }
-
 /* -----------------------
     our-sponspors-section-start
     ------------------------- */
@@ -205,13 +202,12 @@ card-section-start
         text-align: center;
         margin-bottom: 50px;
     }
-
      /*-----------------
      logo-container
      -------------------- */
     .logo-container{
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
         gap: 20px;
         flex-wrap: wrap;
@@ -226,7 +222,8 @@ card-section-start
             text-align: center;
     }
     .product-container{
-        display: flex;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
         gap: 10px;
         justify-content: center;
     }

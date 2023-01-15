@@ -37,19 +37,18 @@
         top:105%;
         left: 26%;
         height: 100px;
-
     }
     .some-facts-section{
         margin-top: 150px;
     }
     
-
     .featuer-section-container >div{
         width: 90%;
     }
 
-    /* ----------
-    ours-sponspors-section */
+    /* ----------------
+    ours-sponspors-section
+    --------------------- */
     .ours-sponspors-part{
         width: 90%;
         margin: 0 auto;
@@ -65,11 +64,11 @@
         margin: 5px auto;
     }
     /* ----------------------
-            identity-container-start
+            product-container-start
         -------------------------- */
+
         .product-container{
-            flex-direction: column;
-            margin: 0 auto;
+            grid-template-columns: repeat(1, 1fr);
         }
 }
 
@@ -77,6 +76,8 @@
 
 
 @media screen and (min-width:577px) and (max-width:768px) {
-     
+    .product-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
     
 }
