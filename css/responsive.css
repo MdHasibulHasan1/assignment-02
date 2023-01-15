@@ -12,7 +12,10 @@
     nav ul{
         flex-direction: column;
     }
-
+    .band-new-section .band-new-title{
+        width: 700;
+        font-size: 3em;
+    }
     /* quick-list-section */
     .quick-list-container{
         flex-direction: column;
@@ -80,6 +83,9 @@
 
 
 @media screen and (min-width:577px) and (max-width:768px) {
+    nav{
+        flex-wrap: wrap;
+    }
      /* ----------------
     card-section-start
      */
