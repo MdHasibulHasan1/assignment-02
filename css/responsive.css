@@ -31,7 +31,9 @@
         margin-top: 20px;
     }
 
-
+    .featuer-section-container >div{
+        width: 90%;
+    }
      /*-----------------
      logo-container
      -------------------- */ 

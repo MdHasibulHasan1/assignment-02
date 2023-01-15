@@ -186,13 +186,13 @@ card-section-start
     
     box-sizing: border-box;
     padding: 20px;
-    box-shadow: rgba(199, 232, 8, 0.16) 0px 1px 4px, rgba(249, 241, 9, 0.231) 0px 0px 0px 3px;
+    box-shadow: rgba(235, 108, 4, 0.466) 0px 1px 4px, rgba(249, 241, 9, 0.231) 0px 0px 0px 3px;
     transition: transform 2s;
 
 }
 /* hover effect */
 .card-container .card-item:hover{
-    transform: scale(1.1);
+    transform: rotate(360deg);
     box-shadow: 1px 8px 20px grey;
 }
 
