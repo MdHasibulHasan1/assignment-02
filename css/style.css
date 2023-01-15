@@ -194,6 +194,8 @@ card-section-start
 .card-container .card-item:hover{
     transform: rotate(360deg);
     box-shadow: 1px 8px 20px grey;
+    border-radius: 50%;
+    background-color: #7272724a;
 }
 
 /* -----------------------
@@ -220,9 +222,9 @@ card-section-start
 /* ----------------------
             identity-container-start
         -------------------------- */
-        .products .section-title{
+    .products .section-title{
             text-align: center;
-        }
+    }
     .product-container{
         display: flex;
         gap: 10px;
@@ -254,8 +256,8 @@ card-section-start
     .product .btn i{
         margin-right: 5px;
     }
-    .product-container .card:hover{
-        box-shadow: 1px 8px 20px rgba(128, 128, 128, 0.897);
+    .product-container .product:hover{
+        box-shadow: 1px 8px 20px rgba(210, 196, 196, 0.897);
     }
     
     /* -------------------
