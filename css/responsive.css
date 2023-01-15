@@ -1,7 +1,10 @@
 
 /* mobile-responsive */
 @media screen and (max-width:576px) {
-    /* nav section */
+    /* headere-section */
+    .band-new-section .band-new-title{
+        font-size: 3em;
+    }
     nav .section-title{
         text-align: center;
     }
