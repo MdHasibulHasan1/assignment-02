@@ -124,7 +124,6 @@ header #banner-img img{
     width: 90%;
     margin: 0 auto;
     display: flex;
-    gap: 20px;
     align-items: center;
     justify-content: space-between;
 }
@@ -133,7 +132,7 @@ header #banner-img img{
     border-left: 2px solid var(--Orange);
 }
 .featuer-section-container >div{
-    width: 90%;
+    width: 45%;
 }
 .featuer-section-container .feature-section{
     position: relative;
