@@ -50,10 +50,10 @@ header{
 
 
 /* --------------
-nav-section-start
+header-section-start
 ------------------- */
 
-nav{
+header nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -63,13 +63,14 @@ nav ul{
     display: flex;
     justify-content: space-between;
 }
-nav ul li{
+header nav ul li{
     margin-left: 20px;
     font-weight: 500;
     font-size: 18px; 
     padding: 1em;   
 }
-.band-new-section{
+/* header-band-new-section */
+header .band-new-section{
     text-align: center;
 }
 .band-new-section .band-new-title{
@@ -169,8 +170,6 @@ some-facts-section-start
     width: 90%;
     margin: 100px auto;
 }
-
-
 /* -----------------
 card-section-start
 --------------------- */
@@ -206,7 +205,7 @@ card-section-start
      -------------------- */
     .logo-container{
         display: flex;
-        justify-content: center;
+        justify-content:space-between;
         align-items: center;
         gap: 20px;
         flex-wrap: wrap;
