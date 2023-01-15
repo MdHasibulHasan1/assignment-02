@@ -211,7 +211,8 @@ card-section-start
         display: flex;
         justify-content: space-between;
         align-items: center;
-        gap: 10px;
+        gap: 20px;
+        flex-wrap: wrap;
     }
     .logo-container>div{
         height: 100px;
