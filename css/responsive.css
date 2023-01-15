@@ -43,8 +43,15 @@
     .featuer-section-container >div{
         width: 90%;
     }
+
+    /* ----------
+    ours-sponspors-section */
+    .ours-sponspors-part{
+        width: 90%;
+        margin: 0 auto;
+    }
      /*-----------------
-     logo-container
+     logo-section
      -------------------- */ 
     .logo-container{
         flex-direction: column;
