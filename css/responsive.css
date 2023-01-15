@@ -27,9 +27,18 @@
     .featuer-section-container{
         flex-direction: column;
     }
-    .featuer-section-container .feature-section{
-        margin-top: 30px;
+    
+    .featuer-section-container>div #experience-box{
+        bottom: -40px;
+        top:105%;
+        left: 30%;
+        height: 100px;
+
     }
+    .some-facts-section{
+        margin-top: 150px;
+    }
+    
 
     .featuer-section-container >div{
         width: 90%;
@@ -58,6 +67,8 @@
 
 @media screen and (min-width:577px) and (max-width:768px) {
      .logo-container{
-        flex-wrap:wrap;
+        gap: 20px;
+        flex-wrap: wrap;
     }
+    
 }
