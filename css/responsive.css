@@ -2,6 +2,9 @@
 /* mobile-responsive */
 @media screen and (max-width:576px) {
     /* nav section */
+    nav .section-title{
+        text-align: center;
+    }
     nav{
         flex-direction: column;
         justify-content: center;
@@ -24,6 +27,7 @@
     }
        
     /* featuer-section */
+
     .featuer-section-container{
         flex-direction: column;
     }
@@ -31,7 +35,7 @@
     .featuer-section-container>div #experience-box{
         bottom: -40px;
         top:105%;
-        left: 30%;
+        left: 26%;
         height: 100px;
 
     }
