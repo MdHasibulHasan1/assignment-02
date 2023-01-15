@@ -1,10 +1,7 @@
 
 /* mobile-responsive */
 @media screen and (max-width:576px) {
-    /* headere-section */
-    .band-new-section .band-new-title{
-        font-size: 3em;
-    }
+    /* header-section */
     nav .section-title{
         text-align: center;
     }
@@ -20,7 +17,6 @@
     .quick-list-container{
         flex-direction: column;
     }
-
     .quick-list-container .team-member-img{
         grid-template-columns: repeat(1, 1fr);
     }
@@ -44,7 +40,6 @@
     .some-facts-section{
         margin-top: 150px;
     }
-    
     .featuer-section-container >div{
         width: 90%;
     }

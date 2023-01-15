@@ -12,8 +12,7 @@ common-style
     --Orange:rgb(255,144,14);
 }
 body{
-    max-width: 1220px;
-    
+    max-width: 1920px;
     margin: 0 auto;
     font-family: var(--font-family);
 }
